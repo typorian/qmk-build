@@ -20,8 +20,8 @@ docker:
 
 build:
 	$(Q)docker run \
-	-v .:/home/input \
-	-w /home/input \
+	-v .:/github/workspace \
+	-w /github/workspace \
 	docker.io/library/qmk-action:$(DOCKER_VERSION) keyboards/idobao/id75/keymaps/justgook idobao/id75/v1 justgook
 
 .PHONY: build docker
