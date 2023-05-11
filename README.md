@@ -12,13 +12,16 @@ No more need to download and setup QMK environment on local machine - just use p
 ## Example usage
 ```yaml
     steps:
+
       - uses: actions/checkout@v1
+
       - name: Build Firmware
         uses: ./
         with:
           keymap-path: "keyboards/idobao/id75/keymaps/justgook"
           keyboard: "idobao/id75/v1"
           keymap: "justgook"
+
       - name: Upload a Firmware
         uses: actions/upload-artifact@v3.1.2
         with:
