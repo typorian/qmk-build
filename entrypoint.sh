@@ -4,7 +4,11 @@ KEYMAP_PATH=$1
 KEYBOARD=$2
 KEYMAP=$3
 
+echo ln -s "$KEYMAP_PATH" "/qmk_firmware/$KEYMAP_PATH"
 echo "qmk compile -kb $KEYBOARD -km $KEYMAP"
+echo "----------------------------------------"
+ls
+echo "----------------------------------------"
 ln -s "$KEYMAP_PATH" "/qmk_firmware/$KEYMAP_PATH"
 qmk compile -kb "$KEYBOARD" -km "$KEYMAP"
 rm -rf build
