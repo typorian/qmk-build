@@ -20,3 +20,6 @@ runs:
     - ${{ inputs.keymap-path }}
     - ${{ inputs.keyboard }}
     - ${{ inputs.keymap }}
+branding:
+  icon: 'anchor'
+  color: 'red'
