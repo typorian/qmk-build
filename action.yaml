@@ -4,15 +4,15 @@ inputs:
   keymap-path:
     description: "Path to Your keymap folder, must be same as qmk_firmware path"
     required: true
-    default: "keyboards/idobao/id75/keymaps/justgook"
+    default: "keyboards/preonic/rev3/addy"
   keyboard:
-    description: "Keyboard name"
+    description: "Preonic"
     required: true
-    default: "idobao/id75/v1"
+    default: "preonic/v3"
   keymap:
     description: "Keymap name, must match `keymap-path` folder"
     required: true
-    default: "justgook"
+    default: "addy"
 runs:
   using: "docker"
   image: "Dockerfile"
