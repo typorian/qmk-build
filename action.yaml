@@ -8,7 +8,7 @@ inputs:
   keyboard:
     description: "Preonic"
     required: true
-    default: "preonic/v3"
+    default: "preonic/rev3"
   keymap:
     description: "Keymap name, must match `keymap-path` folder"
     required: true
