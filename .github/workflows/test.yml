@@ -15,7 +15,7 @@ jobs:
       - name: Build Firmware
         uses: ./
         with:
-          keymap-path: "keyboards/preonic/rev3/keymaps/addy"
+          keymap-path: "keyboards/preonic/keymaps/addy"
           keyboard: "preonic/rev3"
           keymap: "addy"
       - name: Upload a Firmware
