@@ -176,14 +176,14 @@ KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
  */
 [_ADJUST] = LAYOUT_preonic_grid( \
   RGB_TOG, RGB_M_P, RGB_M_B, RGB_M_R, RGB_M_SW, RGB_M_SN, RGB_M_K, RGB_M_X, RGB_M_G, RGB_M_T, KC_NO, KC_NO,  \
-  _______, RESET,   DEBUG,   VRSN,    _______, _______, _______, _______, _______,_______, _______, KC_NO,  \
-  _______, _______, MU_MOD,  AU_ON,   AU_OFF,  KC_NO, KC_NO, KC_NO,  KC_NO, KC_NO,  _______, _______, \
-  _______, MUV_DE,  MUV_IN,  MU_ON,   MU_OFF,  MI_ON,   MI_OFF,  _______, _______, _______, _______, _______, \
+  _______, RESET,   _______,   VRSN,    _______, _______, _______, _______, _______,_______, _______, KC_NO,  \
+  _______, _______, MU_NEXT,  AU_ON,   AU_OFF,  KC_NO, KC_NO, KC_NO,  KC_NO, KC_NO,  _______, _______, \
+  _______, AU_NEXT,  AU_PREV,  MU_ON,   MU_OFF,  MI_ON,   MI_OFF,  _______, _______, _______, _______, _______, \
   _______, _______, _______, _______, _______, _______, _______, _______, RGB_VAI, RGB_VAD, RGB_SPI, RGB_SPD  \
 ),
 
 [_NUMPAD] = LAYOUT_preonic_grid( \
-  KC_NO, KC_NO, KC_NO,   KC_NO, KC_NO,  KC_NO, KC_NO, KC_NLCK, KC_NO, KC_NO, KC_NO, KC_BSPC, \
+  KC_NO, KC_NO, KC_NO,   KC_NO, KC_NO,  KC_NO, KC_NO, KC_NUM, KC_NO, KC_NO, KC_NO, KC_BSPC, \
   KC_NO, KC_NO,  KC_UP,  KC_NO,  KC_NO,  KC_NO,    TG(7),    KC_KP_7, KC_KP_8, KC_KP_9,    KC_NO,   KC_BSPC,\
   KC_TAB,KC_LEFT,KC_DOWN,KC_RIGHT,KC_NO,  KC_NO,    KC_NO,  KC_KP_4, KC_KP_5, KC_KP_6,    KC_NO,   KC_NO,   \
   KC_TRNS, KC_NO,  KC_NO,  KC_NO,  KC_NO,  KC_NO,    KC_NO,  KC_KP_1, KC_KP_2, KC_KP_3,    KC_NO,   KC_TRNS,    \
