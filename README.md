@@ -28,3 +28,12 @@ No more need to download and setup QMK environment on local machine - just use p
           name: firmware
           path: build
 ```
+## Flashing the firmware
+
+use lsusb to find the correct device ID for the dfu mode of the keyboard, then flash with
+
+```
+sudo dfu-util -d 0483:df11 -a 0 -s 0x08000000:leave -D preonic_rev3_addy.bin
+```
+
+the device id is 0483:df11, 0x08000000... is the offset where to write the firmware. make sure to flash bin not hex.
