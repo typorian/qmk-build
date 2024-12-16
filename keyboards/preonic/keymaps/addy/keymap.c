@@ -178,7 +178,7 @@ KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
   RGB_TOG, UG_PREV, UG_NEXT, UG_VALD, UG_VALU, UG_HUED, UG_HUEU, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,  \
   _______, RESET,   QK_BOOT,   VRSN,    _______, _______, _______, _______, _______,_______, _______, KC_NO,  \
   _______, _______, MU_NEXT,  AU_ON,   AU_OFF,  KC_NO, KC_NO, KC_NO,  KC_NO, KC_NO,  _______, _______, \
-  _______, AU_NEXT,  AU_PREV,  MU_ON,   MU_OFF,  MI_ON,   MI_OFF,  _______, _______, _______, _______, _______, \
+  _______, AU_NEXT,  AU_PREV,  MU_ON,   MU_OFF,  _______,   _______,  _______, _______, _______, _______, _______, \
   _______, _______, _______, _______, _______, _______, _______, _______, RGB_VAI, RGB_VAD, RGB_SPI, RGB_SPD  \
 ),
 
